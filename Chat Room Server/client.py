@@ -2,7 +2,10 @@ import socket
 import threading
 
 PORT = 8000
-SERVER = "172.16.5.177"
+##########################################
+# ENTER YOUR SERVER IP ADDRESS
+SERVER = ""
+##########################################
 nickname = input("Choose a nickname: ")
 ADDR = (SERVER, PORT)
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
